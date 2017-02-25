@@ -1,0 +1,15 @@
+<div style="width:300px; display: inline-block">
+
+  <div class="answer">
+    <h5><%= params[:query] %>?</h5>
+    <div>-- You</div>
+
+  </div>
+
+  <div class="answer">
+    <h5><%= @answer%></h5>
+    <div>-- Your coach</div>
+  </div>
+
+  <%= link_to 'Ask another question', ask_path %>
+</div>
